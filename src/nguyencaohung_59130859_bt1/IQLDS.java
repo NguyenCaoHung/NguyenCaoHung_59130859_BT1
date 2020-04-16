@@ -9,13 +9,9 @@ package nguyencaohung_59130859_bt1;
  *
  * @author PC
  */
-public class NguyenCaoHung_59130859_BT1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    public interface IQLDS {
     
+    void themCaNhan(CaNhan caNhan);
+    void xoa(String ten);
+    void inDS();
 }
